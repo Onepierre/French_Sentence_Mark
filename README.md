@@ -2,6 +2,9 @@
 This code takes a text written by someone in French, and gives 5 marks:
 One for the ponctuation, one for orthographic errors, one for grammatical errors, one for rarity of the words used and one for swear words.
 The code won't work for other language.
+
+For Windows users, you need to withdraw every accent on letters, as it can't read them.
+I also created a colab notebook : https://colab.research.google.com/drive/1qH-lU2QXR1FR7putgkak4_a-umvechyr?usp=sharing
 ## Environnement
 ### Install requirements
 The code have been tested for

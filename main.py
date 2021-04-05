@@ -24,14 +24,14 @@ def purify_sentence(sentence):
 def load_bad_words():
   #Load the badwords
   SW = []
-  with open("swearwords.txt", "r") as f:
+  with open("data/swearwords.txt", "r") as f:
     for x in f:
       SW.append(x[:-1])
   return SW
 
 def main(printing = False):
   scores = []
-  with open('input.txt',"r") as f:
+  with open('data/input.txt',"r") as f:
     brut_text = f.read()
   SW = load_bad_words()
 
@@ -63,7 +63,7 @@ def main(printing = False):
       print(text)
       print(score)
     scores.append(score)
-  with open("output.csv","w") as f:
+  with open("data/output.csv","w") as f:
     spamwriter = csv.writer(f, delimiter=' ',quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for s in scores:
       spamwriter.writerow(s)

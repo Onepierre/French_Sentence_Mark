@@ -73,7 +73,7 @@ def main(printing = False):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    if len(sys.argv[0]) > 0:
-      main(sys.argv[0])
+    if len(sys.argv) > 1:
+      main(sys.argv[1])
     else:
       main()

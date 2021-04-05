@@ -16,6 +16,8 @@ def purify_sentence(sentence):
   if sentence[0] == " ":
     sentence = sentence[1:]
   #Remove the whitespace at the end
+  if sentence =='':
+    return sentence
   if sentence[-1] == " ":
     sentence = sentence[:-1]
   return sentence

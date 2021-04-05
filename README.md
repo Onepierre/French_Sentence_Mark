@@ -26,6 +26,17 @@ python3.7 -m pip install -r requirements.txt
 ### Prepare your data
 You need to put the different texts you want to analyze in the data/input.txt file.
 Each text must be separated by a //FIN// marker.
+
+I also ran the code using french random tweet dataset (https://www.data.gouv.fr/fr/datasets/credibility-corpus-with-several-datasets-twitter-web-database-in-french-and-english/). I store the files named randomtweets1.txt and randomtweets2.txt in a tweets folder.
+I added a parser to transform the data into the right format. Use :
+```
+python parser.py 
+```
+or
+```
+python3.7 parser.py
+```
+
 ### Run main.py
 with the following command :
 ```

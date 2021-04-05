@@ -1,4 +1,4 @@
 wordfreq==2.4.2
 pygrammalecte==1.3.0
 pyspellchecker==0.6.2
-numpy
+numpy==1.17.0

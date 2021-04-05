@@ -5,13 +5,13 @@ The code won't work for other language.
 ## Environnement
 ### Install requirements
 The code have been tested for
-'''
+```
 python==3.7
 wordfreq==2.4.2
 pygrammalecte==1.3.0
 pyspellchecker==0.6.2
 numpy==1.17.0
-'''
+```
 These are the core requirements which can be separately installed or just do:
 ```
 pip install -r requirements.txt
